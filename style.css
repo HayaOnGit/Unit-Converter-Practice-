@@ -1,0 +1,121 @@
+body {
+    font-family: 'Inter', sans-serif;
+    max-width: max-content;
+    margin: 20px auto;
+}
+
+#inputDiv {
+    text-align: center;
+    background: #6943ff; /* #26AE7C; , #34D399;*/
+    width: 550px;
+    height: 285px;
+    margin-bottom: 0;
+    padding-bottom: 34px;
+    padding-top: 33px;
+}
+
+h1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    /*Removed position absolute as it wouldnt let the text center itself. Will check later.*/
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#input {
+    display:block;
+    margin: 10px auto 13.77px auto;
+    /*It dont seem like its requiring a width...we'll see*/
+    height: 83px;
+    width: 117px;
+    left: 217px;
+    top: 101px;
+    border: 2px solid #ECFDF5;
+    border-radius: 5px;
+    background: #6943ff;
+    font-weight: 800;
+    color: white;
+
+}
+
+#input[type=number], select {
+  font-family: inherit;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#button {
+    color: #064E3B;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 13px 10px;
+    height: 42px;
+    width: 117px;    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 0px solid;
+    border-radius: 5px;
+    
+}
+
+#convDiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background: #1f2937;
+    width: 550px;
+    height: 444px;
+    left: 76px;
+    top: 126px;
+}
+
+
+.result {
+    background: #273549; /*#34D399 */
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 315px;
+    border-radius: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ccc1ff;
+}
+
+#lengthDiv {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#volumeDiv {
+    margin-top: -17px; /*-54 joins them together or -55*/
+    margin-bottom: 0;
+}
+
+#massDiv {
+    margin-top: -17px;
+}
+
+#length-el, #volume-el, #mass-el {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}

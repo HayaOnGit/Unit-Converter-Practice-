@@ -15,7 +15,7 @@ bTn.addEventListener("click", function(){
     convLength1.innerHTML = `${input.value} meters = ${(3.28084 * input.value).toFixed(3)} feet `
     convLength2.innerHTML = ` ${input.value} feet = ${(input.value / 3.28084).toFixed(3)} meters`
     convVolume1.innerHTML = `${input.value} litres = ${(0.264172 * input.value).toFixed(3)} gallons `
-    convVolume2.innerHTML = ` ${input.value} gallons = ${(input.value / 0.264172).toFixed(3)} meters`
+    convVolume2.innerHTML = ` ${input.value} gallons = ${(input.value / 0.264172).toFixed(3)} litres`
     convMass1.innerHTML = `${input.value} kilograms = ${(2.20462 * input.value).toFixed(3)} pounds `
     convMass2.innerHTML = ` ${input.value} pounds = ${(input.value / 2.20462).toFixed(3)} kilograms`
 })

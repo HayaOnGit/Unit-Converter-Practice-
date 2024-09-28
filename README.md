@@ -15,6 +15,12 @@ To use the unit converter:
 
 The conversions will be displayed below the input area for each unit type.
 
+## Technologies Used
+
+- CSS
+- JavaScript
+- HTML
+
 ## Installation
 
 Clone repository:

@@ -25,7 +25,7 @@ The conversions will be displayed below the input area for each unit type.
 
 Clone repository:
 ```
-https://github.com/HayaOnGit/Unit-Converter-Practice-.git
+git clone https://github.com/HayaOnGit/Unit-Converter-Practice-.git
 ```
 Open the project: Open the `index.html` file in a web browser to use the unit converter.
 
